@@ -15,6 +15,7 @@ public class AsusZenbookBuilder extends ComputadorBuilder{
     public void DefinirComputador() {
         c = new Computador();
         c.setRam(16);
+        c.setMarca("Asus");
         c.setModelo("Zenbook");
         c.setAlmacenamiento(500);
     }
