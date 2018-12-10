@@ -10,6 +10,7 @@ package ensamblajecomputadoras.creacional;
  * @author Palacios
  */
 public class Computador {
+    
     private int ram;
     private SistemaOperativo os;
     private int almacenamiento;

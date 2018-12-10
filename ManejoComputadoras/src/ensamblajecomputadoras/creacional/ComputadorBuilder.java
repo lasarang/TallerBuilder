@@ -10,6 +10,7 @@ package ensamblajecomputadoras.creacional;
  * @author jfherrer
  */
 public abstract class ComputadorBuilder {
+    
     protected Computador c;
     
     public Computador getComputador() {
