@@ -50,8 +50,4 @@ public class SistemaOperativo {
         return nombre+" "+version+" "+arquitectura;
     }
     
-    
-    
-    
-    
 }

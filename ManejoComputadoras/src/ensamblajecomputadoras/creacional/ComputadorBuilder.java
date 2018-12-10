@@ -19,5 +19,5 @@ public abstract class ComputadorBuilder {
     public abstract void DefinirComputador();
     public abstract void ConstruirSO();
     public abstract void ConstruirMainboard();
-    
+    public abstract void DefinirExtras();
 }

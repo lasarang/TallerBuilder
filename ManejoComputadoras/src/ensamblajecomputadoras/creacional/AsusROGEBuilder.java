@@ -10,20 +10,29 @@ package ensamblajecomputadoras.creacional;
  * @author jfherrer
  */
 public class AsusROGEBuilder extends ComputadorBuilder {
-
+            
     @Override
     public void DefinirComputador() {
         c = new Computador();
+        c.setMarca("Asus");
+        c.setModelo("ROGE");
+        c.setRam(32);
+        c.setAlmacenamiento(1000);
     }
 
     @Override
     public void ConstruirSO() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        c.setOs(new SistemaOperativo("Windows 10", 64, "PRO"));
     }
 
     @Override
     public void ConstruirMainboard() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        c.setPlaca(new Mainboard("Strix", "X99"));
+    }
+
+    @Override
+    public void DefinirExtras() {
+        c.setCoolerExterno(true);
     }
     
 }

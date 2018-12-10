@@ -28,9 +28,7 @@ public class Computador {
     }
 
     public Computador() {
-    }
-    
-    
+    } 
 
     public int getRam() {
         return ram;
@@ -88,10 +86,6 @@ public class Computador {
         this.coolerExterno = coolerExterno;
     }
     
-    
-
-      
-    
     public String especificacionesTecnicas(){
         return "Especificiaciones Técnicas:\n"
                +"Modelo : "+modelo+"\n"
@@ -102,8 +96,5 @@ public class Computador {
                +"Sistema Operativo: "+os+"\n" ;
                
     }
-    
-    
-    
-    
+   
 }
